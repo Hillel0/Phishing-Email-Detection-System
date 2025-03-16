@@ -1,0 +1,16 @@
+﻿# Ignore large model files
+*.safetensors
+*.pt
+optimizer.pt
+model.safetensors
+
+# Ignore datasets
+*.arrow
+data-*.arrow
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Other large files
+*.bin
